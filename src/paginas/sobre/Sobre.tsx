@@ -4,10 +4,10 @@ function Sobre() {
     return (
 
         <>
-        <h2 className='font-semibold text-2xl text-center xl:text-left pb-3 bg-cor1 md:bg-cor4 text-white md:pl-2'>Sobre mim</h2>
-            <div className="justify-around py-1 bg-cor4 font-semibold text-white">
+        <h2 className='font-semibold text-2xl text-center xl:text-left pb-3 bg-cor1 md:bg-inherit text-white md:pl-2'>Sobre mim</h2>
+            <div className="justify-around py-1 font-semibold text-white">
             
-                <div className=" justify-around">
+                <div className="justify-around">
 
                    
                     <div className='px-3'>

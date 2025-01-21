@@ -7,7 +7,7 @@ import Sobre from '../sobre/Sobre';
 
 function Home() {
 
-    const phoneNumber = "5521989409557";
+    const phoneNumber = "5521984548915";
     const message = "Olá, gostaria de agendar uma consulta!";
 
     const formattedMessage = encodeURIComponent(message);
