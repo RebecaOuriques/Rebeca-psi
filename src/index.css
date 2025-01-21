@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    background: linear-gradient(to left top, #c084fa , #d8b4fa , #c084fa); /* Gradiente */
+    width: 100%; /* Full width */
+}
