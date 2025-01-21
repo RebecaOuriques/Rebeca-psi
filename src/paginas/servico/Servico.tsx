@@ -1,4 +1,4 @@
-import { Monitor, Wifi,Globe, Headphones } from "lucide-react";
+import { Monitor, Users } from "lucide-react";
 
 function Servico() {
 
@@ -15,7 +15,7 @@ function Servico() {
             titulo:"Palestras",
             descricao:"Ministro palestras que abordam temas relevantes da psicologia, oferecendo informações valiosas e promovendo a reflexão. Com conhecimento no assunto, busco inspirar e educar o público, promovendo o entendimento sobre saúde mental e bem-estar emocional.",
         },
-        {icone: LectureIcon,
+        {icone: Users,
             titulo: "Atendimento Online",
 descricao: "Realizo atendimentos psicológicos online, proporcionando um espaço seguro e acolhedor para explorar questões emocionais e pessoais. Essa modalidade oferece flexibilidade e conveniência, permitindo que você cuide da sua saúde mental no conforto da sua casa, com a mesma qualidade e ética do atendimento presencial."
                },
