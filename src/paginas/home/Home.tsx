@@ -19,11 +19,11 @@ function Home() {
                 <div className="container flex px-2 md:px-6">
                     <div className="flex flex-col justify-center items-center space-y-4 text-center ">
                         <div className="space-y-2 flex-row ">
-                            <h1 className="text-2xl font-bold text-white tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+                            <h1 className="text-2xl font-bold text-black tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
                             Psicóloga Rebeca Ouriques
                             </h1>
-                            <p className="mx-auto max-w-[700px] text-daniAzul md:text-xl dark:text-daniAzul"></p>
-                            <p className=' text-daniAzul md:text-xl dark:text-cor3'>Seja bem-vindo ao espaço onde o acolhimento e o
+                            <p className="mx-auto max-w-[700px] text-cor2 md:text-xl font-semibold"></p>
+                            <p className=' text-black md:text-xl dark:text-black font-semibold'>Seja bem-vindo ao espaço onde o acolhimento e o
                                 autoconhecimento se encontram.</p>
                         </div>
                         <div className="space-x-4 flex justify-center items-center">

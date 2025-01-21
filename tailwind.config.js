@@ -14,7 +14,7 @@ module.exports = {
       cor1: '#8e5ce6 ',
       cor2: '#7734e7',
       cor3: '#2c016d',
-      cor4: '#cba1ff '
+      cor4: '#c3a8e8   '
     
     },
     screens: {

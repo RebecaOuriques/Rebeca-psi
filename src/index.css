@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 #root{
-    background: linear-gradient(to left top, #e1c2fd  , #e1c2fd  , #e1c2fd); /* Gradiente */
+    background: #e9d5ff; /* Gradiente */
     width: 100%; /* Full width */
 }

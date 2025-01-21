@@ -1,3 +1,4 @@
+import { Monitor, Wifi,Globe, Headphones } from "lucide-react";
 
 function Servico() {
 
@@ -10,16 +11,26 @@ function Servico() {
             titulo:"Terapia de Sessão Única",
             descricao:"A terapia de sessão única é uma opção eficaz para quem busca resolver questões específicas em um tempo reduzido. Nessa abordagem, um único encontro pode trazer insights significativos e estratégias práticas para lidar com problemas pontuais, oferecendo suporte imediato.",
         },
-        {icone: LectureIcon,
+        {icone: Monitor,
             titulo:"Palestras",
             descricao:"Ministro palestras que abordam temas relevantes da psicologia, oferecendo informações valiosas e promovendo a reflexão. Com conhecimento no assunto, busco inspirar e educar o público, promovendo o entendimento sobre saúde mental e bem-estar emocional.",
         },
+        {icone: LectureIcon,
+            titulo: "Atendimento Online",
+descricao: "Realizo atendimentos psicológicos online, proporcionando um espaço seguro e acolhedor para explorar questões emocionais e pessoais. Essa modalidade oferece flexibilidade e conveniência, permitindo que você cuide da sua saúde mental no conforto da sua casa, com a mesma qualidade e ética do atendimento presencial."
+               },
+
+               {  
+                icone: LectureIcon,
+                titulo: "Atendimento Presencial",
+descricao: "Ofereço atendimentos psicológicos presenciais em um ambiente acolhedor e reservado, ideal para quem prefere o contato direto. Esse formato permite uma interação mais próxima, promovendo o vínculo terapêutico e um espaço seguro para trabalhar questões emocionais e buscar o bem-estar mental."},
+
     ]
 
     return (
 
         <>
-<div className="text-xl font-bold font-sans text-white p-2 md:pt-5 text-center bg-cor1 md:bg-inherit xl:text-left">Serviços</div>
+<div className="text-xl font-bold font-sans text-white md:text-black p-3 md:pt-5 text-center bg-cor1 md:bg-inherit xl:text-left">Serviços</div>
 <div className="grid gap-6 pt-5 sm:grid-cols-2 lg:grid-cols-3 p-3 ">
       {services.map((service, index) => (
         <div key={index} className="flex flex-col gap-2 bg-cor4 border-1 rounded-md p-3 shadow-md">
@@ -77,7 +88,6 @@ function TimeIcon(props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
         </svg>
     );
 }
-
 
 function LectureIcon(props: React.SVGProps<SVGSVGElement>) {
     return (

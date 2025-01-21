@@ -4,26 +4,26 @@ import { JSX } from "react/jsx-runtime"
 function Contato() {
     return (
         <>
-            <div className="space-y-4 pt-5 flex-row justify-around items-center text-daniAzul">
+            <div className="space-y-4 pt-5 flex-row justify-around items-center md:text-black">
                 <div className="">
                     <div className="grid">
-                        <div className="text-xl font-bold font-sans text-center xl:text-left bg-cor1 md:bg-inherit text-white p-2">
+                        <div className="text-xl font-bold font-sans text-center xl:text-left bg-cor1 md:bg-inherit text-white md:text-black p-3">
                             Informações
                         </div>
                         <div className="p-4">
                             
-                        <div className="flex items-center gap-2">
-                            <LocateIcon className="h-5 w-5 text-muted-foreground text-white" />
-                            <p className='font-sans text-white font-semibold'>
+                        <div className="flex items-center gap-2 text-black">
+                            <LocateIcon className="h-5 w-5 text-muted-foreground " />
+                            <p className='font-sans font-semibold'>
                                 Patio Campo Grande - Loja 430 - RJ</p>
                         </div>
-                        <div className="flex items-center gap-2">
-                            <PhoneIcon className="h-5 w-5 text-muted-foreground text-white" />
-                            <p className="text-muted-foreground text-white font-semibold"> +55 (21) 98454-8915</p>
+                        <div className="flex items-center gap-2 text-black">
+                            <PhoneIcon className="h-5 w-5 text-muted-foreground " />
+                            <p className="text-muted-foreground font-semibold "> +55 (21) 98454-8915</p>
                         </div>
-                        <div className="flex items-center gap-2">
-                            <MailIcon className="h-5 w-5 text-muted-foreground text-white" />
-                            <p className="text-muted-foreground text-white font-semibold">psi.rebecaouriques@gmail.com</p>
+                        <div className="flex items-center gap-2 text-black ">
+                            <MailIcon className="h-5 w-5 text-muted-foreground" />
+                            <p className="text-muted-foreground  font-semibold">psi.rebecaouriques@gmail.com</p>
                         </div>
                     </div>
 
