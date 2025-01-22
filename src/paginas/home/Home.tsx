@@ -49,7 +49,7 @@ function Home() {
                     </div>
 
 
-                    <div className='container relative my-auto mx-auto w-[50vh] h-[57vh] md:h-[90vh] md:w-[100vh] md:mt-[-.3rem] mb-[-2.5rem] overflow-y-hidden'>
+                    <div className='container relative my-auto mx-auto w-[40vh] h-[57vh] md:h-[90vh] md:w-[90vh] md:mt-[-.3rem] mb-[-2.5rem] overflow-y-hidden'>
                         <img src={rebeca} alt="" className=' flex justify-start mt-3 md:mt-0 items-start pb-[-2.5rem]' />
                     </div>
                 </div>
