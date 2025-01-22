@@ -6,3 +6,7 @@
     background: #e9d5ff; /* Gradiente */
     width: 100%; /* Full width */
 }
+
+html {
+    scroll-behavior: smooth;
+  }

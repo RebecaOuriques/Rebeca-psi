@@ -11,23 +11,23 @@ function Contato() {
                             Informações
                         </div>
                         <div className="p-4">
-                            
-                        <div className="flex items-center gap-2 text-black">
-                            <LocateIcon className="h-5 w-5 text-muted-foreground " />
-                            <p className='font-sans font-semibold'>
-                                Patio Campo Grande - Loja 430 - RJ</p>
-                        </div>
-                        <div className="flex items-center gap-2 text-black">
-                            <PhoneIcon className="h-5 w-5 text-muted-foreground " />
-                            <p className="text-muted-foreground font-semibold "> +55 (21) 98454-8915</p>
-                        </div>
-                        <div className="flex items-center gap-2 text-black ">
-                            <MailIcon className="h-5 w-5 text-muted-foreground" />
-                            <p className="text-muted-foreground  font-semibold">psi.rebecaouriques@gmail.com</p>
-                        </div>
-                    </div>
 
+                            <div className="flex items-center gap-2 text-black">
+                                <LocateIcon className="h-5 w-5 text-muted-foreground " />
+                                <p className='font-sans font-semibold'>
+                                    Patio Campo Grande - Loja 430 - RJ</p>
+                            </div>
+                            <div className="flex items-center gap-2 text-black">
+                                <PhoneIcon className="h-5 w-5 text-muted-foreground " />
+                                <p className="text-muted-foreground font-semibold "> +55 (21) 98454-8915</p>
+                            </div>
+                            <div className="flex items-center gap-2 text-black ">
+                                <MailIcon className="h-5 w-5 text-muted-foreground" />
+                                <p className="text-muted-foreground  font-semibold">psi.rebecaouriques@gmail.com</p>
+                            </div>
                         </div>
+
+                    </div>
                 </div>
                 <div className="rounded-lg overflow-hidden p-2 pb-4 flex justify-center md:justify-start">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.1838563727033!2d-43.56541682468959!3d-22.906588479255173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be3fdf4a56525%3A0x3a156ac4ccbe8186!2sPATIO%20CAMPO%20GRANDE!5e0!3m2!1spt-BR!2sbr!4v1730077198626!5m2!1spt-BR!2sbr" width="350" height="300" loading="lazy"></iframe>
