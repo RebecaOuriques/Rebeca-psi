@@ -1,10 +1,10 @@
-import mental from '../../assets//mental.png'
+import rebeca from '../../assets/rebeca2.png'
 
 function Sobre() {
     return (
 
         <>
-            <h2 className='font-semibold text-2xl text-center xl:text-left py-3 bg-cor1 md:bg-inherit text-white md:text-black md:pl-2'>Sobre mim</h2>
+            <h2 className='font-bold text-2xl text-center xl:text-left py-3 bg-cor1 md:bg-inherit text-white md:text-black md:pl-2'>Sobre mim</h2>
             <div className="justify-around py-1 font-semibold text-black">
 
                 <div className="justify-around">
@@ -35,7 +35,7 @@ function Sobre() {
                 </div>
 
                 <div className="flex justify-center py-2">
-                    <img src={mental} alt="" className=' flex justify-center mt-2 w-[50vh] rounded-lg' />
+                    <img src={rebeca} alt="" className=' flex justify-center mt-2 w-[50vh] rounded-full' />
                 </div>
             </div>
         </>
