@@ -15,12 +15,12 @@ function Home() {
     return (
 
         <>
-            <section className="w-full flex py-12 md:py-12 lg:py-16 xl:py-20 px-2 mx-0 justify-center bg-gradient-to-r text-cor2">
+            <section id="home" className="w-full h-full flex items-center pt-14 md:py-12 lg:py-16 xl:py-20 px-2 mx-0 justify-center bg-gradient-to-r text-cor2">
                 <div className="container flex px-2 md:px-6">
                     <div className="flex flex-col justify-center items-center space-y-4 text-center ">
                         <div className="space-y-2 flex-row ">
                             <h1 className="text-2xl font-bold text-black tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                            Psicóloga Rebeca Ouriques
+                                Psicóloga Rebeca Ouriques
                             </h1>
                             <p className="mx-auto max-w-[700px] text-cor2 md:text-xl font-semibold"></p>
                             <p className=' text-black md:text-xl dark:text-black font-semibold'>Seja bem-vindo ao espaço onde o acolhimento e o
@@ -28,24 +28,21 @@ function Home() {
                         </div>
                         <div className="space-x-4 flex justify-center items-center">
                             <div className='hover:scale-105 transition-transform duration-300'>
-                            <WhatsAppButton
-                                phoneNumber={phoneNumber}
-                                message="Olá, gostaria de mais informações sobre o serviço de teparia!"
-                                showImage={false}
-                            />
-                            <a
-                                href={whatsappUrl}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="bg-cor1 text-white border-3 rounded-lg p-2 hover:bg-cor3 "
-                            >
-                                Agende sua consulta
-                            </a>
+                                <WhatsAppButton
+                                    phoneNumber={phoneNumber}
+                                    message="Olá, gostaria de mais informações sobre o serviço de teparia!"
+                                    showImage={false}
+                                />
+                                <a
+                                    href={whatsappUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="bg-cor1 text-white border-3 rounded-lg p-2 hover:bg-cor3 "
+                                >
+                                    Agende sua consulta
+                                </a>
                             </div>
-                             {/* // <div className='hover:scale-105 transition-transform duration-300'>
-                              <button className="bg-daniRose border-3 rounded-lg p-2 hover:bg-daniVermelho">Saiba +</button>
-                             </div> */}
-                          </div>
+                        </div>
                     </div>
 
                     <div className='container mx-auto w-[50vh] flex'>
@@ -55,10 +52,18 @@ function Home() {
 
             </section>
 
-            <Sobre />
+            <section id="sobre" className='pt-10 md:pt-8'>
+                <Sobre />
+            </section>
+            <section id="servico" className='pt-10 md:pt-8'>
                 <Servico />
+            </section>
+            <section id="contato" className='pt-6 md:pt-6'>
                 <Contato />
+            </section>
+            <section id="razoes" className='pt-11 md:pt-9'>
                 <Razoes />
+            </section>
 
         </>
     )
