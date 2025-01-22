@@ -20,7 +20,7 @@ function Home() {
                     <div className=" flex-row grid place-items-center gap-2 w-full h-full space-y-4 text-center  ">
 
                         <div>
-                            <h1 className=" h-auto pt-2 flex justify-center text-xl font-semibold text-black tracking-tighter md:text-2xl lg:text-3xl/none">
+                            <h1 className=" h-auto pt-2 flex justify-center text-4xl font-semibold text-black tracking-tighter md:text-5xl lg:text-6xl/none">
                                 Psicóloga Rebeca Ouriques
                             </h1>
                         </div>
