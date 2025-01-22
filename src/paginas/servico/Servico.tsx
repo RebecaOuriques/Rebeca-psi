@@ -34,7 +34,7 @@ function Servico() {
     return (
 
         <>
-            <div className="text-xl font-bold font-sans text-white md:text-black p-3 md:pt-5 text-center bg-cor1 md:bg-inherit xl:text-left">Serviços</div>
+            <div className="text-xl font-bold text-white md:text-black p-3 md:pt-5 text-center bg-cor1 md:bg-inherit xl:text-left">Serviços</div>
             <div className="grid gap-6 pt-5 sm:grid-cols-2 lg:grid-cols-3 p-3 ">
                 {services.map((service, index) => (
                     <div key={index} className="flex flex-col gap-2 bg-cor4 border-1 rounded-md p-3 shadow-md">

@@ -7,7 +7,7 @@ function Contato() {
             <div className="space-y-4 pt-5 flex-row justify-around items-center md:text-black">
                 <div className="">
                     <div className="grid">
-                        <div className="text-xl font-bold font-sans text-center xl:text-left bg-cor1 md:bg-inherit text-white md:text-black p-3">
+                        <div className="text-xl font-bold text-center xl:text-left bg-cor1 md:bg-inherit text-white md:text-black p-3">
                             Informações
                         </div>
                         <div className="p-4">
