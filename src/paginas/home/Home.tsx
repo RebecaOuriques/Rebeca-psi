@@ -25,9 +25,8 @@ function Home() {
                             </h1>
                         </div>
                         <div className="h-auto flex justify-center items-center">
-                            <p className=' py-2 text-cor2 text-2xl md:text-3xl font-semibold md:w-[70vh]'>Seja bem-vindo ao espaço onde o acolhimento e o
-                                autoconhecimento se encontram.</p>
-                        </div>
+                            <p className=' py-2 text-cor3 text-2xl md:text-3xl font-semibold md:w-[70vh]'>Seja bem-vindo ao espaço onde o <span className='text-cor2'>acolhimento</span> e o <span className='text-cor2'>autoconhecimento</span> se encontram.</p>
+                            </div>
                    
                     <div className="h-auto space-x-4 pb-4 mt-2 flex justify-center items-center">
                         <div className='hover:scale-105 transition-transform duration-300'>
