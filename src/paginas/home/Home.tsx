@@ -15,7 +15,7 @@ function Home() {
     return (
 
         <>
-            <section id="home" className="w-full md:h-screen flex md:flex-col items-center  md:py-12 px-2 mx-0 justify-center bg-gradient-to-r text-cor2">
+            <section id="home" className="w-full md:h-screen flex md:flex-col items-center pt-16 md:py-12 px-2 mx-0 justify-center bg-gradient-to-r text-cor2">
                 <div className="container h-full flex-row md:flex items-center gap-2 justify-between px-2 md:px-6 ">
                     <div className=" flex-row grid place-items-center gap-2 w-full h-full space-y-4 text-center  ">
 
