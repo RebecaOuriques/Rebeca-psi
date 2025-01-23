@@ -12,9 +12,9 @@ module.exports = {
       daniRose:'#ebb3a9',
       daniVermelho: '#f2545b',
       cor1: '#aaaef8 ',
-      cor2: '#7734e7',
+      cor2: '#8b7bfa',
       cor3: '#2c016d',
-      cor4: '#c3a8e8   '
+      cor4: '#a8a8d9'
     
     },
     screens: {
