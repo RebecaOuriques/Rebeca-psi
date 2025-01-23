@@ -76,7 +76,7 @@ function Razoes() {
         {services.map((service, index) => (
           <div
             key={index}
-            className="flex flex-col gap-2 bg-cor4 border-1 rounded-md p-3 shadow-md"
+            className="flex flex-col gap-2 bg-cor1 border-1 rounded-md p-3 shadow-md"
           >
             <div>
               <div
