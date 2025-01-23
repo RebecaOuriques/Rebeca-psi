@@ -13,7 +13,7 @@ module.exports = {
       daniVermelho: '#f2545b',
       cor1: '#aaaef8 ',
       cor2: '#8b7bfa',
-      cor3: '#2c016d',
+      cor3: '#573aa8',
       cor4: '#a8a8d9'
     
     },
