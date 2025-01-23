@@ -15,12 +15,12 @@ function Home() {
     return (
 
         <>
-            <section id="home" className="w-full md:h-screen flex md:flex-col items-center pt-14 md:py-12 lg:py-16 xl:py-20 px-2 mx-0 justify-center bg-gradient-to-r text-cor2">
+            <section id="home" className="w-full md:h-screen flex md:flex-col items-center  md:py-12 px-2 mx-0 justify-center bg-gradient-to-r text-cor2">
                 <div className="container h-full flex-row md:flex items-center gap-2 justify-between px-2 md:px-6 ">
                     <div className=" flex-row grid place-items-center gap-2 w-full h-full space-y-4 text-center  ">
 
                         <div>
-                            <h1 className=" h-auto pt-2 flex justify-center text-4xl font-semibold text-black tracking-tighter md:text-5xl lg:text-6xl/none">
+                            <h1 className=" h-auto pt-2 flex justify-center text-4xl font-semibold text-cor3 tracking-tighter md:text-5xl lg:text-6xl/none">
                                 Psicóloga Rebeca Ouriques
                             </h1>
                         </div>
