@@ -69,7 +69,7 @@ function Razoes() {
 
   return (
     <>
-      <div className="text-xl font-bold text-white md:text-black text-center bg-cor1 md:bg-inherit xl:text-left p-3">
+      <div className="text-xl font-bold text-white md:text-slate-600 text-center bg-cor1 md:bg-inherit xl:text-left p-3">
         Razões para fazer terapia
       </div>
       <div className="grid gap-6 pt-5 sm:grid-cols-2 lg:grid-cols-3 p-3">

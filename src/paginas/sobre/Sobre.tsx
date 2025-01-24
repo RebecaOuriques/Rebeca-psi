@@ -1,11 +1,11 @@
-import rebeca from '../../assets/rebeca2.png'
+import rebeca from '../../assets/rebeca4.png'
 
 function Sobre() {
     return (
 
         <>
-            <h2 className='font-bold text-2xl text-center xl:text-left py-3 bg-cor1 md:bg-inherit text-white md:text-black md:pl-2'>Sobre mim</h2>
-            <div className="justify-around py-1 font-semibold text-slate-700">
+            <h2 className='font-bold text-2xl text-center xl:text-left py-3 bg-cor1 md:bg-inherit text-white md:text-slate-600  md:pl-2'>Sobre mim</h2>
+            <div className="justify-around py-1 font-semibold text-slate-600">
 
                 <div className="justify-around">
 
