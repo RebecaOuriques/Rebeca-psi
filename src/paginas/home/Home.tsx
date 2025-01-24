@@ -18,33 +18,32 @@ function Home() {
             <section id="home" className="w-full md:h-screen flex md:flex-col items-center pt-16 md:py-12 px-2 mx-0 justify-center bg-gradient-to-r text-cor2">
                 <div className="container h-full flex-row md:flex items-center gap-2 justify-between px-2 md:px-6 ">
                     <div className=" flex-row grid place-items-center gap-2 w-full h-full space-y-4 text-center  ">
-
                         <div>
-                            <h1 className=" h-auto pt-2 flex justify-center text-4xl font-semibold text-cor3 tracking-tighter md:text-5xl lg:text-6xl/none">
+                            <h1 className=" h-auto pt-2 flex justify-center text-4xl text-cor3 italic font-normal tracking-tighter md:text-5xl lg:text-6xl/none">
                                 Psicóloga Rebeca Ouriques
                             </h1>
                         </div>
-                        <div className="h-auto flex justify-center items-center">
-                            <p className=' py-2 text-cor3 text-2xl md:text-3xl font-semibold md:w-[70vh]'>Seja bem-vindo ao espaço onde o <span className='text-cor2'>acolhimento</span> e o <span className='text-cor2'>autoconhecimento</span> se encontram.</p>
-                            </div>
-                   
-                    <div className="h-auto space-x-4 pb-4 mt-2 flex justify-center items-center">
-                        <div className='hover:scale-105 transition-transform duration-300'>
-                            <WhatsAppButton
-                                phoneNumber={phoneNumber}
-                                message="Olá, gostaria de mais informações sobre o serviço de teparia!"
-                                showImage={false}
-                            />
-                            <a
-                                href={whatsappUrl}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="bg-cor1 text-white mt-2 border-3 rounded-lg p-2 m-4 md:m-2 font-semibold hover:bg-cor3 "
-                            >
-                                Agende sua consulta
-                            </a>
+                        <div className="h-auto flex justify-center items-center ">
+                            <p className=' py-2 text-cor3 text-2xl md:text-3xl font-semibold md:w-[70vh]'>Seja bem-vindo ao espaço onde o <span className="text-cor2 italic ">acolhimento</span> e o <span className='text-cor2 italic'>autoconhecimento</span> se encontram.</p>
                         </div>
-                    </div>
+
+                        <div className="h-auto space-x-4 pb-4 mt-2 flex justify-center items-center">
+                            <div className='hover:scale-105 transition-transform duration-300'>
+                                <WhatsAppButton
+                                    phoneNumber={phoneNumber}
+                                    message="Olá, gostaria de mais informações sobre o serviço de teparia!"
+                                    showImage={false}
+                                />
+                                <a
+                                    href={whatsappUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="bg-cor3 text-white mt-2 border-3 rounded-lg p-2 m-4 md:m-2 font-semibold animate-pulse"
+                                >
+                                    Agende sua consulta
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
 
