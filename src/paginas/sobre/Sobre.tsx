@@ -4,14 +4,14 @@ function Sobre() {
     return (
 
         <>
-            <h2 className='font-bold text-2xl text-center xl:text-left py-3 bg-cor1 md:bg-inherit text-white md:text-slate-600  md:pl-2'>Sobre mim</h2>
+            <h2 className='font-bold text-4xl text-center xl:text-left py-3 bg-cor1 md:bg-inherit text-white md:text-slate-600 font-corpo md:pl-2'>Sobre mim</h2>
             <div className="justify-around py-1 font-semibold text-slate-600">
 
-                <div className="justify-around">
+                <div className="justify-around font-corpo text-2xl">
 
 
                     <div className='px-3'>
-                        <p className="text-justify text-evenly py-2">
+                        <p className="text-justify text-evenly py-2 ">
                             <p>Meu nome é Rebeca Ouriques, sou Psicóloga (CRP 05/XXXXX), formada pela Universidade Estácio de Sá em 2019. Minha trajetória profissional é marcada por 12 anos de atuação em uma multinacional, onde exerci funções de gestão de filial e equipes, além de dois anos dedicados à prática clínica como psicóloga. Essa experiência me proporcionou uma visão abrangente sobre a complexidade das relações humanas e organizacionais, enriquecendo meu olhar para a prática clínica.</p>
 
 

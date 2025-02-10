@@ -34,7 +34,7 @@ function Servico() {
     return (
 
         <>
-            <div className="text-xl font-bold text-white md:text-slate-600 p-3 md:pt-5 text-center bg-cor1 md:bg-inherit xl:text-left">Serviços</div>
+            <div className="text-4xl font-corpo font-bold text-white md:text-slate-600 p-3 md:pt-5 text-center bg-cor1 md:bg-inherit xl:text-left">Serviços</div>
             <div className="grid gap-6 pt-5 sm:grid-cols-2 lg:grid-cols-3 p-3 ">
                 {services.map((service, index) => (
                     <div key={index} className="flex flex-col gap-2 bg-cor1 border-1 rounded-md p-3 shadow-md">
@@ -42,8 +42,8 @@ function Servico() {
                             <div className="h-12 rounded-full bg-primary/10 flex align-middle items-center justify-center mb-4 ">
                                 <service.icone className="w-18 h-18 flex justify-center text-center items-center align-middle text-white " />
                             </div>
-                            <div className="text-center font-semibold text-white text-xl p-2">{service.titulo}</div>
-                            <div className="text-white font-semibold text-justify">{service.descricao}</div>
+                            <div className="text-center font-semibold text-white font-corpo text-3xl p-2">{service.titulo}</div>
+                            <div className="text-white font-corpo font-semibold text-justify text-2xl">{service.descricao}</div>
                         </div>
                     </div>
                 ))}

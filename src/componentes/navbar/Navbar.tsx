@@ -34,10 +34,10 @@ function Navbar() {
     <nav className="grid grid-flow-col justify-between px-4 bg-cor1 border-gray-200 text-white fixed top-0 left-0 w-full z-50 shadow-lg">
       <div className=" py-2.5 flex justify-start font-semibold hover:scale-105 transition-transform duration-400">
         <img src={psi} className="h-6 mx-1 text-transparent" /> 
-        <p className="text-sm block pl-1">Rebeca Ouriques | Psicóloga</p>
+        <p className="font-nome block px-1">Rebeca Ouriques</p> <p className='pl-1 mt-1 font-corpo'>| Psicóloga</p>
       </div>
 
-      <div className={`py-2.5 md:flex md:items-center bg-transparent justify-items-center md:justify-evenly w-[10vh] md:w-[90vh] transition-transform duration-400 ${isOpen ? 'block' : 'hidden'} md:block`}>
+      <div className={`py-2.5 md:flex md:items-center bg-transparent justify-items-center  md:justify-evenly w-[10vh] md:w-[90vh] font-corpo transition-transform duration-400 ${isOpen ? 'block' : 'hidden'} md:block`}>
         <div className='py-1 md:py-0'>
           <a href="#home" onClick={(e) => handleLinkClick(e, 'home')} className="hover:text-cor3 hover:font-bold font-semibold text-sm">
             Home

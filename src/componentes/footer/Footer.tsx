@@ -8,7 +8,7 @@ function Footer() {
       <SocialIcons />
       </div>
       <div>
-      <p className="text-white  text-sm flex justify-center">© 2025 Psicóloga Rebeca Ouriques.</p>
+      <p className="text-white flex justify-center font-corpo text-xl">© 2025 Psicóloga Rebeca Ouriques.</p>
       </div>
     </div>
   );
