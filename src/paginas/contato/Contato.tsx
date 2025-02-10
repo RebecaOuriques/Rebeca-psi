@@ -7,23 +7,23 @@ function Contato() {
             <div className="space-y-4 pt-5 flex-row justify-around items-center md:text-slate-600">
                 <div className="">
                     <div className="grid">
-                        <div className="text-xl font-bold text-center xl:text-left bg-cor1 md:bg-inherit text-white md:text-slate-600 p-3">
+                        <div className="text-4xl font-corpo font-bold text-center xl:text-left bg-cor1 md:bg-inherit text-white md:text-slate-600 p-3">
                             Contato
                         </div>
                         <div className="p-4 gap-2 text-slate-600">
 
                             <div className="flex items-center gap-2">
                                 <LocateIcon className="h-5 w-5 text-muted-foreground  " />
-                                <p className='font-sans font-semibold'>
+                                <p className='font-corpo text-xl font-semibold'>
                                     Patio Campo Grande - RJ</p>
                             </div>
                             <div className="flex items-center gap-2">
                                 <PhoneIcon className="h-5 w-5 text-muted-foreground " />
-                                <p className="text-muted-foreground font-semibold "> +55 (21) 98454-8915</p>
+                                <p className="text-muted-foreground font-semibold font-corpo text-xl "> +55 (21) 98454-8915</p>
                             </div>
                             <div className="flex items-center gap-2 ">
                                 <MailIcon className="h-5 w-5 text-muted-foreground" />
-                                <p className="text-muted-foreground  font-semibold">psi.rebecaouriques@gmail.com</p>
+                                <p className="text-muted-foreground font-semibold font-corpo text-xl">psi.rebecaouriques@gmail.com</p>
                             </div>
                         </div>
 

@@ -69,7 +69,7 @@ function Razoes() {
 
   return (
     <>
-      <div className="text-xl font-bold text-white md:text-slate-600 text-center bg-cor1 md:bg-inherit xl:text-left p-3">
+      <div className="text-4xl font-corpo font-bold text-white md:text-slate-600 text-center bg-cor1 md:bg-inherit xl:text-left p-3">
         Razões para fazer terapia
       </div>
       <div className="grid gap-6 pt-5 sm:grid-cols-2 lg:grid-cols-3 p-3">
@@ -87,14 +87,14 @@ function Razoes() {
               >
                 <service.icone className="w-10 h-10 md:h-18 md:w-18 flex justify-center text-center items-center align-middle text-white" />
               </div>
-              <div className="text-center font-semibold text-white text-xl p-2">
+              <div className="text-center font-semibold text-white text-3xl font-corpo p-2">
                 {service.titulo}
               </div>
-              <div className="hidden md:block text-white font-semibold text-justify">
+              <div className="hidden md:block text-white font-semibold text-xl font-corpo text-justify">
                 {service.descricao}
               </div>
               {activeIndex === index && (
-                <div className="block md:hidden text-white font-semibold text-justify mt-2">
+                <div className="block md:hidden text-white font-semibold text-xl font-corpo text-justify mt-2">
                   {service.descricao}
                 </div>
               )}
