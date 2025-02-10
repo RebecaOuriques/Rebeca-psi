@@ -6,12 +6,8 @@ import Servico from '../servico/Servico';
 import Sobre from '../sobre/Sobre';
 
 function Home() {
+    const calendar = `https://calendar.app.google/1yfoC2DBV5Vb5mE99`;
 
-    const phoneNumber = "5521984548915";
-    const message = "Olá, gostaria de agendar uma consulta!";
-
-    const formattedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${formattedMessage}`;
     return (
 
         <>
@@ -28,21 +24,15 @@ function Home() {
                         </div>
 
                         <div className="h-auto space-x-4 pb-4 mt-2 flex justify-center items-center ">
-                            <div className='hover:scale-105 transition-transform duration-300'>
-                                <WhatsAppButton
-                                    phoneNumber={phoneNumber}
-                                    message="Olá, gostaria de mais informações sobre o serviço de teparia!"
-                                    showImage={false}
-                                />
+                            
                                 <a
-                                    href={whatsappUrl}
+                                    href={calendar}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="bg-cor3 text-white mt-2 border-3 rounded-lg p-2 m-4 md:m-2 font-corpo text-2xl animate-pulse"
                                 >
                                     Agende sua consulta
                                 </a>
-                            </div>
                         </div>
                     </div>
 
