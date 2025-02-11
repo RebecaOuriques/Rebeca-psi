@@ -1,5 +1,4 @@
 import rebeca from '../../assets/rebeca1.png'
-import WhatsAppButton from '../../componentes/whatsapp/Whatsapp'
 import Contato from '../contato/Contato';
 import Razoes from '../razoes/Razoes';
 import Servico from '../servico/Servico';
@@ -24,15 +23,16 @@ function Home() {
                         </div>
 
                         <div className="h-auto space-x-4 pb-4 mt-2 flex justify-center items-center ">
-                            
-                                <a
-                                    href={calendar}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="bg-cor3 text-white mt-2 border-3 rounded-lg p-2 m-4 md:m-2 font-corpo text-2xl animate-pulse"
-                                >
-                                    Agende sua consulta
-                                </a>
+
+                            <a
+                                href={calendar}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-cor3 text-white mt-2 border-3 rounded-lg p-2 m-4 md:m-2 font-corpo text-2xl animate-pulse"
+                            >
+                                Agende sua consulta
+                            </a>
+
                         </div>
                     </div>
 
