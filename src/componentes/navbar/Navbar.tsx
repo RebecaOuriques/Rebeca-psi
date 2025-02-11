@@ -37,29 +37,29 @@ function Navbar() {
         <p className="font-nome block text-2xl px-1">Rebeca Ouriques</p> <p className='pl-1 text-2xl mt-1 font-corpo'>| Psicóloga</p>
       </div>
 
-      <div className={`py-2.5 md:flex md:items-center bg-transparent justify-items-center  md:justify-evenly w-[10vh] md:w-[90vh] font-corpo transition-transform duration-400 hover:text-cor3 hover:font-bold font-semibold text-lg ${isOpen ? 'block' : 'hidden'} md:block`}>
+      <div className={`py-2.5 md:flex md:items-center bg-transparent justify-items-center  md:justify-evenly w-[10vh] md:w-[90vh] font-corpo transition-transform duration-400  ${isOpen ? 'block' : 'hidden'} md:block`}>
         <div className='py-1 md:py-0'>
-          <a href="#home" onClick={(e) => handleLinkClick(e, 'home')} className="">
+          <a href="#home" onClick={(e) => handleLinkClick(e, 'home')} className="text-white hover:text-cor3 hover:font-bold font-semibold text-lg">
             Home
           </a>
         </div>
         <div className='py-1 md:py-0'>
-          <a href="#sobre" onClick={(e) => handleLinkClick(e, 'sobre')} className="">
+          <a href="#sobre" onClick={(e) => handleLinkClick(e, 'sobre')} className="text-white hover:text-cor3 hover:font-bold font-semibold text-lg">
             Sobre
           </a>
         </div>
         <div className='py-1 md:py-0'>
-          <a href="#servico" onClick={(e) => handleLinkClick(e, 'servico')} className="">
+          <a href="#servico" onClick={(e) => handleLinkClick(e, 'servico')} className="text-white hover:text-cor3 hover:font-bold font-semibold text-lg">
             Serviços
           </a>
         </div>
         <div className='py-1 md:py-0'>
-          <a href="#contato" onClick={(e) => handleLinkClick(e, 'contato')} className="">
+          <a href="#contato" onClick={(e) => handleLinkClick(e, 'contato')} className="text-white hover:text-cor3 hover:font-bold font-semibold text-lg">
             Contato
           </a>
         </div>
         <div className='py-1 md:py-0'>
-          <a href="#razoes" onClick={(e) => handleLinkClick(e, 'razoes')} className="">
+          <a href="#razoes" onClick={(e) => handleLinkClick(e, 'razoes')} className="text-white hover:text-cor3 hover:font-bold font-semibold text-lg">
             Razões
           </a>
         </div>
