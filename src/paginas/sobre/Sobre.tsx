@@ -12,9 +12,7 @@ function Sobre() {
 
                     <div className='px-3'>
                         <p className="text-justify text-evenly py-2 ">
-                            <p>Meu nome é Rebeca Ouriques, sou Psicóloga (CRP 05/XXXXX), formada pela Universidade Estácio de Sá em 2019. Minha trajetória profissional é marcada por 12 anos de atuação em uma multinacional, onde exerci funções de gestão de filial e equipes, além de dois anos dedicados à prática clínica como psicóloga. Essa experiência me proporcionou uma visão abrangente sobre a complexidade das relações humanas e organizacionais, enriquecendo meu olhar para a prática clínica.</p>
-
-
+                            Meu nome é Rebeca Ouriques, sou Psicóloga (CRP 05/XXXXX), formada pela Universidade Estácio de Sá em 2019. Minha trajetória profissional é marcada por 12 anos de atuação em uma multinacional, onde exerci funções de gestão de filial e equipes, além de dois anos dedicados à prática clínica como psicóloga. Essa experiência me proporcionou uma visão abrangente sobre a complexidade das relações humanas e organizacionais, enriquecendo meu olhar para a prática clínica.
                         </p>
                         <p className='py-2 text-justify'> Sou fluente em inglês e possuo nível intermediário em francês, o que me permite atender pessoas de diferentes nacionalidades e contextos culturais. Com isso, posso oferecer um espaço inclusivo e acolhedor para um público diversificado.
                         </p>
