@@ -19,7 +19,7 @@ function Home() {
                             </h1>
                         </div>
                         <div className="h-auto flex justify-center items-center  ">
-                            <p className=' py-2 text-cor3 text-3xl md:text-3xl font-corpo md:w-[70vh]'>Seja bem-vindo ao espaço onde o <span className="text-cor2 italic ">acolhimento</span> e o <span className='text-cor2 italic'>autoconhecimento</span> se encontram.</p>
+                            <p className=' py-2 text-cor3 text-3xl md:text-5xl font-corpo md:w-[70vh]'>Seja bem-vindo ao espaço onde o <span className="text-cor2 italic ">acolhimento</span> e o <span className='text-cor2 italic'>autoconhecimento</span> se encontram.</p>
                         </div>
 
                         <div className="h-auto space-x-4 pb-4 mt-2 flex justify-center items-center ">
@@ -37,7 +37,7 @@ function Home() {
                     </div>
 
 
-                    <div className='container relative my-auto mx-auto w-[40vh] h-[57vh] md:h-[90vh] md:w-[90vh] md:mt-[-.3rem] mb-[-2.5rem] overflow-y-hidden'>
+                    <div className='container relative my-auto mx-auto w-[40vh] h-[57vh] md:h-[85vh] md:w-[90vh] mb-[-2.5rem] overflow-y-hidden'>
                         <img src={rebeca} alt="" className=' flex justify-start mt-3 md:mt-0 items-start pb-[-2.5rem]' />
                     </div>
                 </div>
@@ -47,7 +47,7 @@ function Home() {
             <section id="sobre" className='pt-10 md:pt-8'>
                 <Sobre />
             </section>
-            <section id="servico" className='pt-10 md:pt-8'>
+            <section id="servico" className='md:pt-8'>
                 <Servico />
             </section>
             <section id="contato" className='pt-6 md:pt-6'>
