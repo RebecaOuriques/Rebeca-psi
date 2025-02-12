@@ -4,8 +4,9 @@ function Sobre() {
     return (
 
         <>
-            <h2 className='font-bold text-4xl text-center xl:text-left py-3 bg-cor1 md:bg-inherit text-white md:text-slate-600 font-corpo md:pl-2'>Sobre mim</h2>
-            <div className="justify-around py-1 font-semibold text-slate-600">
+        <div className='bg-cor2'>
+            <h2 className='font-bold text-4xl text-center xl:text-left py-3 md:bg-inherit text-white font-corpo md:pl-2'>Sobre mim</h2>
+            <div className="justify-around py-1 font-semibold text-white">
 
                 <div className="justify-around font-corpo text-2xl">
 
@@ -35,6 +36,7 @@ function Sobre() {
                 <div className="flex justify-center py-2">
                     <img src={rebeca} alt="" className=' flex justify-center mt-2 w-[50vh] rounded-full' />
                 </div>
+            </div>
             </div>
         </>
     )
