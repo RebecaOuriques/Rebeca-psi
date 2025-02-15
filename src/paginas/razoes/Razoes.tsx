@@ -72,7 +72,7 @@ function Razoes() {
       <div className="text-4xl font-corpo font-bold text-white md:text-slate-600 text-center bg-cor1 md:bg-inherit xl:text-left p-3">
         Razões para fazer terapia
       </div>
-      <div className="grid gap-6 pt-5 sm:grid-cols-2 lg:grid-cols-5 p-2 mx-3 md:mx-5">
+      <div className="grid gap-6 pt-5 sm:grid-cols-2 lg:grid-cols-5 p-4 mx-3 md:mx-5">
         {services.map((service, index) => (
           <div
             key={index}

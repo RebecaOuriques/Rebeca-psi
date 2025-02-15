@@ -28,7 +28,7 @@ function Home() {
                                 href={calendar}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-cor3 text-white mt-2 border-3 rounded-lg p-2 m-4 md:m-2 font-corpo text-2xl animate-pulse"
+                                className="bg-cor2 text-white mt-2 border-3 rounded-lg p-2 m-4 md:m-2 font-corpo text-2xl animate-pulse"
                             >
                                 Agende sua consulta
                             </a>
