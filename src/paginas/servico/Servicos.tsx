@@ -71,17 +71,17 @@ function Servicos() {
         navigation
         pagination={{ clickable: true }}
         autoplay={{ delay: 8000 }}
-        className="bg-white w-full max-w-8xl center py-2"
+        className="bg-white w-full max-w-8xl center pt-2 border-2 border-red-400"
       >
         {slidesData.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="flex flex-col items-center justify-start border-2 shadow-xl rounded-2xl mx-5 h-[85vh] text-center md:h-[90vh]">
+            <div className="flex flex-col items-center justify-start border-2 shadow-xl rounded-2xl mb-12 mx-5 h-[85vh] text-center md:h-[90vh]">
               <img src={slide.imagem} alt={`Slide ${index + 1}`} className="flex justify-center items-center object-contain h-96 md:h-56 " />
               <div className="text-cor3 px-3 pt-2">
                 <p className="text-center font-bold font-corpo text-3xl">
                   {slide.titulo}
                 </p>
-                <p className="font-corpo text-slate-600 font-semibold text-justify text-2xl pt-4">
+                <p className="font-corpo text-slate-600 font-semibold text-justify text-2xl pt-4 pb-5 border-2 border-green-700">
                   {slide.descricao}
                 </p>
               </div>
