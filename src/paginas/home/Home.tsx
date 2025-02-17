@@ -37,8 +37,8 @@ function Home() {
                     </div>
 
 
-                    <div className='container relative my-auto mx-auto w-[40vh] h-[57vh] md:h-[85vh] md:w-[90vh] mb-[-2.5rem] overflow-y-hidden'>
-                        <img src={rebeca} alt="" className=' flex justify-start mt-3 md:mt-0 items-start pb-[-2.5rem]' />
+                    <div className='container relative my-auto mx-auto w-[40vh] h-[57vh] md:h-[85vh] md:w-[90vh]  mb-[-2.0rem] md:mb-[-3.0rem] md:overflow-visible '>
+                        <img src={rebeca} alt="" className='flex justify-start md:mt-0 items-end overflow-y-hidden' />
                     </div>
                 </div>
 

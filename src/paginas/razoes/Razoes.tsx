@@ -111,13 +111,13 @@ function Razoes() : JSX.Element{
     >
       {razoes.map((slide, index) => (
         <SwiperSlide key={index}>
-          <div className="flex flex-col items-center border-2 shadow-xl rounded-2xl m-4 h-[60vh] md:h-[75vh]">
+          <div className="flex flex-col items-center justify-start border-2 shadow-xl rounded-2xl m-4 h-[60vh] md:h-[75vh]">
             <img src={slide.imagem} alt={`Slide ${index + 1}`} className="flex justify-center items-center object-contain md:h-56 w-2/3"/>
-            <div className="text-cor3 px-4">
-              <p className="text-center font-semibold font-corpo text-3xl p-2">
+            <div className="text-cor3 px-2 pt-3">
+              <p className="text-center font-bold font-corpo text-3xl">
                 {slide.titulo}
               </p>
-              <p className="font-corpo font-semibold text-justify text-2xl">
+              <p className="font-corpo text-slate-600 font-semibold text-justify text-2xl px-2 pt-4">
                 {slide.descricao}
               </p>
             </div>
