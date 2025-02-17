@@ -1,7 +1,7 @@
 import rebeca from '../../assets/rebeca1.png'
 import Contato from '../contato/Contato';
 import Razoes from '../razoes/Razoes';
-import Servico from '../servico/Servico';
+import Servicos from '../servico/Servicos';
 import Sobre from '../sobre/Sobre';
 
 function Home() {
@@ -28,7 +28,7 @@ function Home() {
                                 href={calendar}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-cor2 text-white mt-2 border-3 rounded-lg p-2 m-4 md:m-2 font-corpo text-2xl animate-pulse"
+                                className="bg-cor2 text-white mt-2 border-3 rounded-3xl shadow-2xl p-2 m-4 md:m-2 font-corpo text-2xl animate-pulse"
                             >
                                 Agende sua consulta
                             </a>
@@ -44,13 +44,13 @@ function Home() {
 
             </section>
 
-            <section id="sobre" className='pt-10 md:pt-8'>
+            <section id="sobre" className='pt-12 md:pt-8'>
                 <Sobre />
             </section>
-            <section id="servico" className='md:pt-8'>
-                <Servico />
+            <section id="servico" className='bg-cor1 pt-12 md:pt-8'>
+                <Servicos />
             </section>
-            <section id="contato" className='pt-6 md:pt-6'>
+            <section id="contato" className='pt-12 md:pt-6'>
                 <Contato />
             </section>
             <section id="razoes" className='pt-11 md:pt-9'>

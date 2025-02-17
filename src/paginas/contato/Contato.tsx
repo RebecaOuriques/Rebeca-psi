@@ -8,12 +8,12 @@ function Contato() {
                 <div className=" text-4xl font-corpo font-bold text-center xl:text-left bg-cor1 md:bg-inherit text-white md:text-slate-600 p-3">
                     Contato
                 </div>
-                <div className="text-3xl py-3 text-center">Faça seu agendamento hoje </div>
+                <div className="text-4xl py-3 text-center">Faça seu agendamento hoje </div>
                 <div className="md:flex justify-around h-full">
                 <div className=" space-y-4 pl-5 flex-row justify-around items-center ">
                         <div className="grid">
                             <div className=" text-slate-600 ">
-                                <p className="text-2xl">Presencial às sextas-feira:</p>
+                                <p className="text-2xl text-center md:text-start">Presencial às sextas-feira:</p>
                                 <div className="flex items-center gap-2">
                                     <LocateIcon className="h-5 w-5 text-muted-foreground  " />
                                     <p className='font-corpo text-xl font'>
