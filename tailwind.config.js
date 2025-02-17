@@ -15,10 +15,6 @@ module.exports = {
       },
 
       colors: { 
-
-      daniAzul: '#021d46',
-      daniRose:'#ebb3a9',
-      daniVermelho: '#f2545b',
       cor1: '#aaaef8 ',
       cor2: '#8b7bfa',
       cor3: '#573aa8',

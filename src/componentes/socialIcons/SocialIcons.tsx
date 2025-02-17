@@ -15,7 +15,7 @@ interface SocialIconProps {
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="p-2 rounded-full bg-cor1 text-white hover:bg-cor3 transition-colors duration-300"
+        className="p-2 rounded-full text-white hover:bg-cor3 transition-colors duration-300"
         aria-label={ariaLabel}
       >
         {children}
