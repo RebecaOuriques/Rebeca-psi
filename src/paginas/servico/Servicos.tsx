@@ -71,7 +71,7 @@ function Servicos() {
         navigation
         pagination={{ clickable: true }}
         autoplay={{ delay: 8000 }}
-        className="bg-white w-full max-w-8xl center pt-2 border-2 border-red-400"
+        className="bg-white w-full max-w-8xl center pt-2"
       >
         {slidesData.map((slide, index) => (
           <SwiperSlide key={index}>
@@ -81,7 +81,7 @@ function Servicos() {
                 <p className="text-center font-bold font-corpo text-3xl">
                   {slide.titulo}
                 </p>
-                <p className="font-corpo text-slate-600 font-semibold text-justify text-2xl pt-4 pb-5 border-2 border-green-700">
+                <p className="font-corpo text-slate-600 font-semibold text-justify text-2xl pt-4 pb-5">
                   {slide.descricao}
                 </p>
               </div>
