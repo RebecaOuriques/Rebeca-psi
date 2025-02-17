@@ -16,7 +16,7 @@ module.exports = {
 
       colors: { 
       cor1: '#aaaef8 ',
-      cor2: '#8b7bfa',
+      cor2: '#646AD9',
       cor3: '#573aa8',
       cor4: '#a8a8d9'
     
