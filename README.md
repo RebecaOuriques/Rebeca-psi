@@ -37,21 +37,15 @@ Para rodar este projeto localmente, siga os passos abaixo:
    git clone https://github.com/RebecaOuriques/Rebeca-psi.git
 Navegue até o diretório do projeto:
 
-bash
-Copiar
-Editar
+ ```bash
 cd Rebeca-psi
 Instale as dependências:
 
-bash
-Copiar
-Editar
+ ```bash
 npm install
 Inicie o servidor de desenvolvimento:
 
-bash
-Copiar
-Editar
+ ```bash
 npm run dev
 O aplicativo estará disponível em http://localhost:3000.
 
