@@ -1,6 +1,6 @@
 # Rebeca-psi
 
-Este projeto é uma aplicação web desenvolvida com React, TypeScript e Vite. O objetivo do projeto é [inserir aqui uma breve descrição do propósito do projeto].
+Este projeto é uma aplicação web desenvolvida com React, TypeScript e Vite. O objetivo do projeto é um site para uma Psicóloga para facilitar os agendamento e divulgar o trabalha da profissional.
 
 ## Tecnologias Utilizadas
 
@@ -35,23 +35,27 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
    ```bash
    git clone https://github.com/RebecaOuriques/Rebeca-psi.git
-Navegue até o diretório do projeto:
+2. **Navegue até o diretório do projeto:**
 
- ```bash
-cd Rebeca-psi
-Instale as dependências:
+  ```bash
+  cd Rebeca-psi
+  ```
+3. **Instale as dependências:**
 
- ```bash
-npm install
-Inicie o servidor de desenvolvimento:
+  ```bash
+  npm install
+  ```
+4. Inicie o servidor de desenvolvimento:
 
- ```bash
-npm run dev
+  ```bash
+  npm run dev
+  ```
 O aplicativo estará disponível em http://localhost:3000.
 
-Funcionalidades
+## Funcionalidades
 Agendamento de consulta via Google Calendar, links para contatos via rede social como Instagram
-Contribuição
-Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Contribuição
+Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para entrar em contato.
 
 
