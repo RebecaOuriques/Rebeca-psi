@@ -48,7 +48,7 @@ function Home() {
             <section id="sobre" className='pt-12 md:pt-0'>
                 <Sobre />
             </section>
-            <section id="servico" className='bg-cor1 pt-12 md:pt-0'>
+            <section id="servico" className='pt-12 md:pt-0'>
                 <Servicos />
             </section>
             <section id="contato" className='pt-12 md:pt-0'>
