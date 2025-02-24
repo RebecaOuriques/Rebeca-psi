@@ -12,10 +12,11 @@ import traumas from '../../assets/traumas.png';
 import bemestar from '../../assets/bemEstar.png';
 import saudeMental from '../../assets/saudeMental.png';
 
-function Razoes() : JSX.Element{
 
 
-  const razoes = [
+
+export default function Carousel(): JSX.Element {
+  const slidesData = [
     {
       imagem: autoconhecimento,
       titulo: "Autoconhecimento",
@@ -42,7 +43,7 @@ function Razoes() : JSX.Element{
     },
     {
       imagem: mudanca,
-      titulo: "Apoio em Momentos de Mudança",
+      titulo: "Suporte em Momentos de Mudança",
       descricao:
         "Transições na vida, como mudanças de carreira, separações ou perdas, podem ser desafiadoras. A terapia oferece suporte para lidar com esses momentos de forma mais equilibrada.",
     },
@@ -79,17 +80,9 @@ function Razoes() : JSX.Element{
   ];
 
   return (
-    <>
-      <div className="text-4xl font-corpo font-bold text-white md:text-slate-600 text-center bg-cor1 md:bg-inherit xl:text-left p-3">
-        Razões para fazer terapia
-      </div>
-      <div className="bg-white font-corpo text-center text-5xl px-4 py-3 text-slate-600">
-      Você não precisa ter um diagnóstico para se beneficiar da terapia      </div>
-
-      <div className="">
-      <Swiper
+    <Swiper
       modules={[Navigation, Pagination, Autoplay]}
-      spaceBetween={20}
+      spaceBetween={50}
       breakpoints={{
         640: {
           slidesPerView: 1, 
@@ -107,17 +100,17 @@ function Razoes() : JSX.Element{
       navigation
       pagination={{ clickable: true }}
       autoplay={{ delay: 8000 }}
-      className="w-full max-w-8xl center py-2"
+      className="w-full max-w-2xl"
     >
-      {razoes.map((slide, index) => (
+      {slidesData.map((slide, index) => (
         <SwiperSlide key={index}>
-          <div className="flex flex-col mb-12 items-center justify-start border-2 shadow-xl rounded-2xl m-4 h-[60vh] md:h-[75vh]">
-            <img src={slide.imagem} alt={`Slide ${index + 1}`} className="flex justify-center items-center object-contain md:h-56 w-2/3"/>
-            <div className="text-cor3 px-2 pt-3">
-              <p className="text-center font-bold font-corpo text-3xl">
+          <div className="border-2 shadow-xl rounded-2xl m-4">
+            <img src={slide.imagem} alt={`Slide ${index + 1}`} />
+            <div className="text-cor3 px-4">
+              <p className="text-center font-semibold font-corpo text-3xl p-2">
                 {slide.titulo}
               </p>
-              <p className="font-corpo text-slate-600 font-semibold text-justify text-2xl px-2 pt-4">
+              <p className="font-corpo font-semibold text-justify text-2xl">
                 {slide.descricao}
               </p>
             </div>
@@ -125,10 +118,5 @@ function Razoes() : JSX.Element{
         </SwiperSlide>
       ))}
     </Swiper>
-      </div>
-    </>
   );
 }
-
-
-export default Razoes;
