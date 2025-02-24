@@ -81,13 +81,13 @@ function Servicos() {
       >
         {slidesData.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="flex flex-col items-center justify-start border-2 shadow-xl rounded-2xl mb-12 mx-5 h-[85vh] text-center md:h-[90vh]">
-              <img src={slide.imagem} alt={`Slide ${index + 1}`} className=" flex justify-center items-center object-contain h-80 md:h-56 " />
+            <div className="flex flex-col items-center justify-start border-2 shadow-xl rounded-2xl mb-12 mx-5 h-[75vh] text-center md:h-[90vh]">
+              <img src={slide.imagem} alt={`Slide ${index + 1}`} className=" flex justify-center items-center object-contain h-60 md:h-48 " />
               <div className="text-cor3 pt-2 ">
                 <p className="text-center font-bold font-corpo text-3xl ">
                   {slide.titulo}
                 </p>
-                <p className="font-corpo px-3 text-slate-600 font-semibold text-justify text-2xl pt-3 pb-5">
+                <p className="font-corpo px-4 text-slate-600 font-semibold text-justify text-2xl pt-3 ">
                   {slide.descricao}
                 </p>
               </div>
