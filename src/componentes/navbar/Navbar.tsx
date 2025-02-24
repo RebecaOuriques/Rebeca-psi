@@ -63,6 +63,11 @@ function Navbar() {
             Razões
           </a>
         </div>
+        <div className='py-1 md:py-0'>
+          <a href="#perguntas" onClick={(e) => handleLinkClick(e, 'perguntas')} className="relative after:block after:h-[2px] after:w-0 after:bg-cor3 after:transition-all after:duration-300 hover:after:w-full text-white hover:text-cor3 hover:font-bold font-semibold text-lg">
+            Perguntas
+          </a>
+        </div>
       </div>
 
       <div className="md:hidden flex justify-center items-start pt-1.5 ">
