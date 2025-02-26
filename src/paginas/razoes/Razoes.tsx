@@ -80,7 +80,7 @@ function Razoes() : JSX.Element{
 
   return (
     <>
-      <div className="text-4xl font-corpo font-bold text-white md:text-slate-600 text-center bg-cor1 md:bg-inherit xl:text-left p-3">
+      <div className="text-4xl font-corpo font-bold text-white md:text-slate-600 text-center md:mt-3 bg-cor1 md:bg-inherit xl:text-left p-3">
         Razões para fazer terapia
       </div>
       <div className="bg-white font-corpo text-center text-5xl px-4 py-3 text-slate-600">
@@ -111,7 +111,7 @@ function Razoes() : JSX.Element{
     >
       {razoes.map((slide, index) => (
         <SwiperSlide key={index}>
-          <div className="flex flex-col mb-12 items-center justify-start border-2 shadow-xl rounded-2xl m-4 h-[60vh] md:h-[75vh]">
+          <div className="flex flex-col mb-12 items-center justify-start border-2 shadow-xl rounded-2xl m-4 h-[55vh] sm:h-[80vh] md:h-[99vh] lg:h-[80vh] xl:h-[73vh]">
             <img src={slide.imagem} alt={`Slide ${index + 1}`} className="flex justify-center items-center object-contain h-56 w-2/3"/>
             <div className="text-cor3 px-2 pt-3">
               <p className="text-center font-bold font-corpo text-3xl">

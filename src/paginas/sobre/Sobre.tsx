@@ -29,8 +29,8 @@ function Sobre() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col md:flex-row md:justify-evenly md:my-1 font-corpo ">
-                        <img src={rebeca} alt="" className='flex justify-center mt-1 w-[50vh] rounded-full' />
+                    <div className="flex flex-col md:flex-row items-center md:justify-evenly md:my-1 font-corpo ">
+                        <img src={rebeca} alt="" className='flex justify-center mt-1 w-[50vh] md:w-[60vh] rounded-full' />
                         <div className='bg-white md:bg-inherit md:text-white text-cor2 flex flex-col md:flex md:flex-row justify-center items-center py-2 mt-4 border-4 border-x-transparent border-y-cor2 md:border-x-white rounded-2xl md:border-y-transparent md:shadow-xl'>
                             <p className='italic font-medium md:font-normal text-center md:rounded-xl  m-1 p-1 md:w-[40vh] text-3xl  md:border-0 md:shadow-none '>
                                 “Conheça todas as teorias, domine todas as técnicas, mas ao tocar uma alma humana, seja apenas outra alma humana.”
