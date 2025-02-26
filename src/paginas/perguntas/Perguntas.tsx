@@ -57,7 +57,7 @@ function Perguntas() {
                     <div className="bg-cor2 border-2 rounded-3xl text-center shadow-2xl p-1 my-2" key={index}>
                         <div className="flex items-center justify-between" onClick={() => handleToggle(index)}>
                             <span className={`max-w-1 pr-2 cursor-pointer  ${activeIndex === index ? 'rotate-90' : ''}`}>&#9654;</span>
-                            <p className="w-full ml-2 text-white font-corpo font-semibold text-center text-2xl md:text-3xl py-1">{faq.pergunta}</p>
+                            <p className="w-full ml-2 text-white font-corpo font-semibold text-center text-2xl md:text-xl lg:text-2xl py-1">{faq.pergunta}</p>
 
                         </div>
                         {activeIndex === index && (

@@ -13,9 +13,9 @@ function Footer() {
         <footer className="flex flex-col items-center">
           <div className="flex flex-row justify-center">
             <img src={psi} alt="Ícone Psicóloga" className="h-5 md:h-6 text-transparent mt-1 pr-2" />
-            <p className="text-white flex justify-center font-corpo text-xl md:text-3xl md:font-nome">
+            <p className="text-white flex justify-center font-corpo text-xl lg:text-3xl lg:font-nome">
               Rebeca Ouriques
-              <span className="md:font-corpo pl-2 md:mt-1">- Psicóloga CRP 05/80537.</span>
+              <span className="md:font-corpo pl-2 lg:mt-1">- Psicóloga CRP 05/80537.</span>
             </p>
           </div>
           <div className="text-white">

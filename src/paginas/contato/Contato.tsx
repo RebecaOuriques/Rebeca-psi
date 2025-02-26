@@ -9,39 +9,48 @@ function Contato() {
                     Contato
                 </div>
                 <div className="text-4xl py-3 text-center">Faça seu agendamento hoje </div>
-                <div className="md:flex justify-around h-full">
-                <div className=" space-y-4 pl-5 flex-row justify-around items-center ">
-                        <div className="grid">
+                <div className="lg:flex justify-around h-full">
+                    <div className=" space-y-4 pl-5 flex-row justify-around items-center ">
+                        <div className="grid sm:text-center">
                             <div className=" text-slate-600 ">
                                 <p className="text-2xl text-center md:text-start">Presencial às sextas-feira:</p>
-                                <div className="flex items-center gap-2">
+                                <div className="flex sm:justify-center md:justify-start items-center gap-2">
                                     <LocateIcon className="h-5 w-5 text-muted-foreground  " />
                                     <p className='font-corpo text-xl font'>
                                         Patio Campo Grande - RJ</p>
                                 </div>
-                                <div className="flex items-center gap-2">
+                                <div className="flex sm:justify-center md:justify-start items-center gap-2">
                                     <PhoneIcon className="h-5 w-5 text-muted-foreground " />
                                     <p className="text-muted-foreground font font-corpo text-xl "> +55 (21) 98454-8915</p>
                                 </div>
-                                <div className="flex items-center gap-2 ">
+                                <div className="flex sm:justify-center md:justify-start items-center gap-2 ">
                                     <MailIcon className="h-5 w-5 text-muted-foreground" />
                                     <p className="text-muted-foreground font font-corpo text-xl">psirebecaouriques@gmail.com</p>
                                 </div>
                             </div>
                         </div>
-                    <div className="rounded-lg overflow-hidden p-2 pb-4 flex justify-center md:justify-start">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.1838563727033!2d-43.56541682468959!3d-22.906588479255173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be3fdf4a56525%3A0x3a156ac4ccbe8186!2sPATIO%20CAMPO%20GRANDE!5e0!3m2!1spt-BR!2sbr!4v1730077198626!5m2!1spt-BR!2sbr" width="350" height="300" loading="lazy"></iframe>
+                        <div className="rounded-lg overflow-hidden p-2 pb-4 flex justify-center md:justify-start">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.1838563727033!2d-43.56541682468959!3d-22.906588479255173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be3fdf4a56525%3A0x3a156ac4ccbe8186!2sPATIO%20CAMPO%20GRANDE!5e0!3m2!1spt-BR!2sbr!4v1730077198626!5m2!1spt-BR!2sbr"
+                            width="100%"
+                            height="300"
+                            loading="lazy">
+
+                            </iframe>
+                        </div>
+
                     </div>
 
-                </div>
+                    <div className="text-center mx-3 lg:mx-0 lg:w-[80vh]">
+                        <p className="text-2xl xl:text-start py-2 md:py-0 m-0">Online</p>
+                        <div className="flex border-2 shadow-xl rounded-xl  h-[75vh] md:h-[75vh] lg:h-[75vh] xl:w-[90vh]">
 
-                <div className="text-center md:pr-5">
-                    <p className="text-2xl md:text-start py-2 md:py-0 m-0">Online</p>
-                    <div className=" flex border-2 shadow-xl rounded-xl md:w-[100vh] mx-4 h-[50vh] md:h-full">
+                            <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ19q-fY9iPttlGl6Aln_gJp9le7KQhM1LohJFY79Oc846qAE1phg9ABv-ppms-BG5P0uLS0PkQr?gv=true"
+                                width="100%"
+                                height="full" >
 
-                        <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ19q-fY9iPttlGl6Aln_gJp9le7KQhM1LohJFY79Oc846qAE1phg9ABv-ppms-BG5P0uLS0PkQr?gv=true" width="100%" height="full" ></iframe>
+                            </iframe>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </>)
