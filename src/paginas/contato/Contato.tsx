@@ -25,7 +25,7 @@ function Contato() {
                                 </div>
                                 <div className="flex items-center gap-2 ">
                                     <MailIcon className="h-5 w-5 text-muted-foreground" />
-                                    <p className="text-muted-foreground font font-corpo text-xl">psi.rebecaouriques@gmail.com</p>
+                                    <p className="text-muted-foreground font font-corpo text-xl">psirebecaouriques@gmail.com</p>
                                 </div>
                             </div>
                         </div>
