@@ -15,7 +15,7 @@ function Sobre() {
                         <div className='px-3'>
 
                             <p className="text-justify text-evenly py-2 ">
-                                Sou Rebeca Ouriques, Psicóloga (CRP 05/80537), formada pela Universidade Estácio de Sá em 2019. Com 12 anos de experiência em uma multinacional, onde liderei equipes e gerenciei filiais, e 2 anos de prática clínica, desenvolvi uma visão ampla sobre relações humanas e organizacionais, que enriquece minha atuação na psicologia.
+                                Sou Rebeca S. Ouriques, Psicóloga (CRP 05/80537), formada pela Universidade Estácio de Sá em 2019. Com 12 anos de experiência em uma multinacional, onde liderei equipes e gerenciei filiais, e 2 anos de prática clínica, desenvolvi uma visão ampla sobre relações humanas e organizacionais, que enriquece minha atuação na psicologia.
                             </p>
 
                             <p className='py-2 text-justify'>
@@ -29,10 +29,10 @@ function Sobre() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col md:flex-row items-center md:justify-evenly md:my-1 font-corpo ">
-                        <img src={rebeca} alt="" className='flex justify-center mt-1 w-[50vh] md:w-[60vh] rounded-full' />
+                    <div className="flex flex-col lg:flex-row items-center md:justify-evenly md:my-1 font-corpo ">
+                        <img src={rebeca} alt="" className='flex justify-center mt-1 w-[50vh] lg:w-[40vh] rounded-full' />
                         <div className='bg-white md:bg-inherit md:text-white text-cor2 flex flex-col md:flex md:flex-row justify-center items-center py-2 mt-4 border-4 border-x-transparent border-y-cor2 md:border-x-white rounded-2xl md:border-y-transparent md:shadow-xl'>
-                            <p className='italic font-medium md:font-normal text-center md:rounded-xl  m-1 p-1 md:w-[40vh] text-3xl  md:border-0 md:shadow-none '>
+                            <p className='italic font-medium md:font-normal text-center md:rounded-xl  m-1 p-1 md:w-[40vh] lg:w-[30vh] text-3xl  md:border-0 md:shadow-none '>
                                 “Conheça todas as teorias, domine todas as técnicas, mas ao tocar uma alma humana, seja apenas outra alma humana.”
                             </p>
                             <div className='flex flex-col md:grid-flow-col p-4 items-center justify-center font-medium italic text-xl'>
