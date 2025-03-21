@@ -10,8 +10,8 @@ function Contato() {
                 </div>
                 <div className="text-4xl py-3 text-center">Faça seu agendamento hoje </div>
                 <div className="lg:flex justify-around h-full">
-                    <div className=" space-y-4 pl-5 flex-row justify-around items-center ">
-                        <div className="grid sm:text-center">
+                    <div className=" space-y-4  flex-row justify-around items-center ">
+                        <div className="grid pl-5 sm:text-center">
                             <div className=" text-slate-600 ">
                                 <p className="text-2xl text-center md:text-start">Presencial às sextas-feira:</p>
                                 <div className="flex sm:justify-center md:justify-start items-center gap-2">
@@ -42,7 +42,7 @@ function Contato() {
 
                     <div className="text-center mx-3 lg:mx-0 lg:w-[80vh]">
                         <p className="text-2xl xl:text-start py-2 md:py-0 m-0">Online</p>
-                        <div className="flex border-2 shadow-xl rounded-xl  h-[75vh] md:h-[75vh] lg:h-[75vh] xl:w-[90vh]">
+                        <div className="flex border-2 shadow-xl rounded-xl  h-[75vh] md:h-[75vh] lg:h-[75vh] lg:w-[60vh] xl:w-[90vh]">
 
                             <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ19q-fY9iPttlGl6Aln_gJp9le7KQhM1LohJFY79Oc846qAE1phg9ABv-ppms-BG5P0uLS0PkQr?gv=true"
                                 width="100%"
