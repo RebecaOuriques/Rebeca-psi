@@ -37,8 +37,8 @@ function Navbar() {
         <p className="font-nome block items-start text-2xl md:text-xl px-1 hover:text-cor3">Rebeca Ouriques <span className='pl-1 text-xl font-corpo'>| Psicóloga</span></p>
       </div>
 
-      <div className={`py-2.5 md:flex md:items-center bg-transparent justify-items-center  md:justify-evenly w-[10vh] md:w-[45vh] lg:w-[60vh] font-corpo transition-transform duration-400  ${isOpen ? 'block' : 'hidden'} md:block`}>
-        <div className='py-1 md:py-0'>
+      <div className={`py-2.5 md:flex md:items-center bg-transparent justify-items-center  md:justify-evenly w-[10vh] md:w-[45vh] lg:w-[60vh] xl:w-[80vh] font-corpo transition-transform duration-400 ${isOpen ? 'block' : 'hidden'} md:block`}>
+        <div className='py-1 md:py-0 '>
           <a href="#home" onClick={(e) => handleLinkClick(e, 'home')} className="relative after:block after:h-[2px] after:w-0 after:bg-cor3 after:transition-all after:duration-300 hover:after:w-full text-white hover:text-cor3 hover:font-bold font-semibold text-lg">
             Home
           </a>
