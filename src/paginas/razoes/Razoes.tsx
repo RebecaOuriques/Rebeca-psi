@@ -12,7 +12,7 @@ import traumas from '../../assets/traumas.png';
 import bemestar from '../../assets/bemEstar.png';
 import saudeMental from '../../assets/saudeMental.png';
 
-function Razoes() : JSX.Element{
+function Razoes(): JSX.Element {
 
 
   const razoes = [
@@ -84,49 +84,53 @@ function Razoes() : JSX.Element{
         Razões para fazer terapia
       </div>
       <div className="bg-white font-corpo text-center text-5xl px-4 py-3 text-slate-600">
-      Você não precisa ter um diagnóstico para se beneficiar da terapia      </div>
+        Você não precisa ter um diagnóstico para se beneficiar da terapia      </div>
 
       <div className="">
-      <Swiper
-      modules={[Navigation, Pagination, Autoplay]}
-      spaceBetween={20}
-      breakpoints={{
-        640: {
-          slidesPerView: 1, 
-        },
-        768: {
-          slidesPerView: 2, 
-        },
-        1024: {
-          slidesPerView: 2, 
-        },
-        1280: {
-          slidesPerView: 3, 
-        },
-      }}
-      navigation
-      pagination={{ clickable: true }}
-      autoplay={{ delay: 8000 }}
-      className="w-full max-w-8xl center py-2"
-    >
-      {razoes.map((slide, index) => (
-        <SwiperSlide key={index}>
-          <div className="flex flex-col mb-12 items-center justify-start border-2 shadow-xl rounded-2xl m-4 h-full">
-            <img src={slide.imagem} alt={`Slide ${index + 1}`} className="flex justify-center items-center object-contain h-56 w-2/3"/>
-            <div className="flex flex-col justify-between w-full h-full px-4 py-2 text-cor3 pt-3">
-              <p className="text-center font-bold font-corpo text-3xl">
-                {slide.titulo}
-              </p>
-              <div className="flex-grow overflow-hidden h-auto">
-              <p className="font-corpo text-slate-600 font-semibold text-justify text-2xl px-2 pt-4">
-                {slide.descricao}
-              </p>
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          spaceBetween={20}
+          breakpoints={{
+            640: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 2,
+            },
+            1280: {
+              slidesPerView: 3,
+            },
+          }}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 8000 }}
+          className="w-full max-w-8xl center py-2"
+        >
+          {razoes.map((slide, index) => (
+            <SwiperSlide key={index}>
+              <div className="flex flex-col items-center justify-start border-2 shadow-xl mb-12 rounded-2xl mx-4 h-full min-h-[32rem]">
+                <img
+                  src={slide.imagem}
+                  alt={`Slide ${index + 1}`}
+                  className="object-contain h-56 w-2/3"
+                />
+                <div className="flex flex-col justify-between w-full h-full px-4 py-2 text-cor3 pt-3">
+                  <p className="text-center font-bold font-corpo text-3xl">
+                    {slide.titulo}
+                  </p>
+                  <div className="flex-grow">
+                    <p className="font-corpo text-slate-600 font-semibold text-justify text-2xl px-2 pt-4">
+                      {slide.descricao}
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </>
   );
