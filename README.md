@@ -1,50 +1,61 @@
-# React + TypeScript + Vite
+# Rebeca-psi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação web desenvolvida com React, TypeScript e Vite. O objetivo do projeto é um site para uma Psicóloga para facilitar os agendamento e divulgar o trabalha da profissional.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática ao código.
+- **Vite**: Ferramenta de build que oferece um ambiente de desenvolvimento rápido e eficiente.
+- **Tailwind CSS**: Framework CSS para estilização.
+- **ESLint**: Ferramenta de linting para manter a qualidade do código.
 
-## Expanding the ESLint configuration
+## Estrutura do Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+A estrutura básica do projeto é a seguinte:
 
-- Configure the top-level `parserOptions` property like this:
+Rebeca-psi/ ├── public/ ├── src/ │ ├── assets/ │ ├── components/ │ ├── App.tsx │ └── main.tsx ├── .gitignore ├── index.html ├── package.json ├── README.md ├── tsconfig.json └── vite.config.ts
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **public/**: Contém arquivos estáticos.
+- **src/**: Contém o código-fonte do projeto.
+  - **assets/**: Recursos como imagens e fontes.
+  - **components/**: Componentes React reutilizáveis.
+  - **App.tsx**: Componente principal da aplicação.
+  - **main.tsx**: Ponto de entrada da aplicação.
+- **index.html**: Documento HTML principal.
+- **package.json**: Gerencia as dependências e scripts do projeto.
+- **tsconfig.json**: Configurações do TypeScript.
+- **vite.config.ts**: Configurações do Vite.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Instalação e Uso
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Para rodar este projeto localmente, siga os passos abaixo:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/RebecaOuriques/Rebeca-psi.git
+2. **Navegue até o diretório do projeto:**
+
+  ```bash
+  cd Rebeca-psi
+  ```
+3. **Instale as dependências:**
+
+  ```bash
+  npm install
+  ```
+4. Inicie o servidor de desenvolvimento:
+
+  ```bash
+  npm run dev
+  ```
+O aplicativo estará disponível em http://localhost:3000.
+
+## Funcionalidades
+Agendamento de consulta via Google Calendar, links para contatos via rede social como Instagram
+
+## Contribuição
+Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para entrar em contato.
+
+

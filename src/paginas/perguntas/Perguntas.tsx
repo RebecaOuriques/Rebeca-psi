@@ -52,12 +52,12 @@ function Perguntas() {
 
             <div className="text-4xl font-corpo font-bold text-white md:text-slate-600 p-3 text-center bg-cor1 md:bg-white xl:text-left">FAQ - Perguntas Frequentes</div>
             <div className='bg-white font-corpo text-center text-4xl px-2 py-2 text-slate-600 md:pb-2'>Aqui você encontra respostas para as dúvidas mais comuns sobre o processo terapêutico</div>
-            <div className="md:grid md:grid-cols-3 w-full px-1 md:px-4 gap-2 mb-6">
+            <div className="md:grid md:grid-cols-3 w-full px-1 md:px-4 gap-2 mb-2">
                 {faqs.map((faq, index) => (
                     <div className="bg-cor2 border-2 rounded-3xl text-center shadow-2xl p-1 my-2" key={index}>
                         <div className="flex items-center justify-between" onClick={() => handleToggle(index)}>
                             <span className={`max-w-1 pr-2 cursor-pointer  ${activeIndex === index ? 'rotate-90' : ''}`}>&#9654;</span>
-                            <p className="w-full ml-2 text-white font-corpo font-semibold text-center text-2xl md:text-3xl py-1">{faq.pergunta}</p>
+                            <p className="w-full ml-2 text-white font-corpo font-semibold text-center text-2xl md:text-xl lg:text-2xl py-1">{faq.pergunta}</p>
 
                         </div>
                         {activeIndex === index && (

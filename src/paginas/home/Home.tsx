@@ -20,7 +20,7 @@ function Home() {
                             </h1>
                         </div>
                         <div className="h-auto flex justify-center items-center  ">
-                            <p className=' py-1 text-cor3 text-3xl md:text-5xl font-corpo md:w-[70vh]'>Seja bem-vindo ao espaço onde o <span className="text-cor2 italic ">acolhimento</span> e o <span className='text-cor2 italic'>autoconhecimento</span> se encontram.</p>
+                            <p className=' py-1 text-cor3 text-3xl md:text-4xl lg: font-corpo md:w-[70vh]'>Seja bem-vindo ao espaço onde o <span className="text-cor2 italic ">acolhimento</span> e o <span className='text-cor2 italic'>autoconhecimento</span> se encontram.</p>
                         </div>
 
                         <div className="h-auto space-x-4 py-1 flex justify-center items-center  ">
@@ -38,8 +38,12 @@ function Home() {
                     </div>
 
 
-                    <div className='container relative my-auto mx-auto w-[40vh] h-[57vh] md:h-[85vh] md:w-[90vh]  mb-[-2.0rem]  '>
-                        <img src={rebeca} alt="" className='flex justify-start items-end md:overflow-y-hidden' />
+                    <div className="relative my-auto mx-auto w-[40vh] h-[57vh] sm:h-[56vh] md:h-[80vh] md:w-[100vh] lg:h-[80vh] xl:h-full mb-[-3.0rem] overflow-hidden">
+                        <img
+                            src={rebeca}
+                            alt=""
+                            className="w-full h-full object-contain"
+                        />
                     </div>
                 </div>
 
@@ -48,7 +52,7 @@ function Home() {
             <section id="sobre" className='pt-12 md:pt-0'>
                 <Sobre />
             </section>
-            <section id="servico" className='bg-cor1 pt-12 md:pt-0'>
+            <section id="servico" className='pt-12 md:pt-0'>
                 <Servicos />
             </section>
             <section id="contato" className='pt-12 md:pt-0'>
