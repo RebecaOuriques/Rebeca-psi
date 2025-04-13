@@ -111,7 +111,7 @@ function Razoes(): JSX.Element {
         >
           {razoes.map((slide, index) => (
             <SwiperSlide key={index}>
-              <div className="flex flex-col items-center justify-start border-2 shadow-xl mb-12 rounded-2xl mx-4 h-full min-h-[32rem]">
+              <div className="flex flex-col items-center justify-start border-2 shadow-xl mb-12 rounded-2xl mx-4 h-full min-h-[32rem] lg:min-h-[29rem]">
                 <img
                   src={slide.imagem}
                   alt={`Slide ${index + 1}`}

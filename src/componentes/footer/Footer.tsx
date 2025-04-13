@@ -9,7 +9,7 @@ function Footer() {
   return (
 
     <>
-      <div className="bg-cor2 flex flex-col justify-center py-2 w-full">
+      <div className="bg-cor2 flex flex-col justify-center py-2 mt-10 w-full">
         <footer className="flex flex-col items-center">
           <div className="flex flex-row justify-center">
             <img src={psi} alt="Ícone Psicóloga" className="h-5 md:h-6 text-transparent mt-1 pr-2" />
