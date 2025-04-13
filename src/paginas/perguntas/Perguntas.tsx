@@ -88,14 +88,16 @@ function Perguntas() {
                 {filteredFaqs.map((faq, index) => (
                     <div className="bg-white border-2 my-2 mx-1 border-opacity-55 border-cor3 rounded-3xl text-center shadow-2xl p-1" key={index}>
                         <div className="flex items-center justify-between" onClick={() => handleToggle(index)}>
-                            <span className='max-w-1 pr-2 '>
+                            <p className="w-full text-cor3 font-corpo font-semibold text-center text-2xl md:text-xl lg:text-2xl py-1">
+                                {faq.pergunta}
+                            </p>
+                            <span className=' '>
                                 {activeIndex === index ? (
                                     <MinusIcon className='bg-slate-300 rounded-full lg:m-1 text-cor3 p-2 my-1 w-8 h-8'></MinusIcon>
                                 ) : (
                                     <PlusIcon className='bg-slate-300 rounded-full lg:m-1 text-cor3 p-2 w-8 h-8'></PlusIcon>
                                 )}
                             </span>
-                            <p className="w-full ml-3 text-cor3 font-corpo font-semibold text-center text-2xl md:text-xl lg:text-2xl py-1 pl-1">{faq.pergunta}</p>
                         </div>
 
                         {activeIndex === index && (
