@@ -10,12 +10,12 @@ function Footer() {
 
     <>
       <div className="bg-cor2 flex flex-col justify-center py-2 mt-10 w-full">
-        <footer className="flex flex-col items-center">
+        <footer className=" flex flex-col items-center">
           <div className="flex flex-row justify-center">
             <img src={psi} alt="Ícone Psicóloga" className="h-5 md:h-6 text-transparent mt-1 pr-2" />
-            <p className="text-white flex justify-center font-corpo text-xl lg:text-3xl lg:font-nome">
+            <p className="flex flex-col items-center text-white font-corpo text-xl lg:text-3xl lg:font-nome">
               Rebeca Ouriques
-              <span className="md:font-corpo pl-2 lg:mt-1">- Psicóloga CRP 05/80537.</span>
+              <span className="flex justify-center md:font-corpo pl-2 lg:mt-1">Psicóloga CRP 05/80537.</span>
             </p>
           </div>
           <div className="text-white">

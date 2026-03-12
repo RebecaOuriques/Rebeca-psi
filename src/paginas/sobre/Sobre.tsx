@@ -7,7 +7,7 @@ function Sobre() {
 
         <>
             <div className='bg-cor1'>
-                <h2 className='font-bold text-4xl text-center xl:text-left pt-3 md:bg-inherit text-white font-corpo md:pl-2'>Sobre mim</h2>
+                <h2 className='font-bold text-4xl text-center xl:text-left pt-3 md:bg-inherit text-white font-corpo md:pl-2'>Quem sou eu</h2>
                 <div className="justify-around pt-1 md:pb-3 font-semibold text-white">
 
                     <div className="justify-around font-corpo text-2xl">
@@ -15,16 +15,15 @@ function Sobre() {
                         <div className='px-3'>
 
                             <p className="text-justify text-evenly py-2 ">
-                                Sou Rebeca S. Ouriques, Psicóloga (CRP 05/80537), formada pela Universidade Estácio de Sá em 2019. Com 12 anos de experiência em uma multinacional, onde liderei equipes e gerenciei filiais, e 2 anos de prática clínica, desenvolvi uma visão ampla sobre relações humanas e organizacionais, que enriquece minha atuação na psicologia.
-                            </p>
+                            Sou Rebeca S. Ouriques, psicóloga (CRP 05/80537), formada pela Universidade Estácio de Sá em 2019. Atuo na clínica após uma trajetória de 12 anos no ambiente corporativo, com experiência em liderança e gestão, o que ampliou minha compreensão sobre os impactos emocionais do trabalho, das relações e das exigências da vida adulta.
+                             </p>
 
                             <p className='py-2 text-justify'>
-                                Sou fluente em inglês e tenho francês intermediário, permitindo atender a pessoas de diferentes nacionalidades e contextos culturais. No meu tempo livre, gosto de ler, assistir filmes e séries, passar tempo com amigos e familiares, fazer trilhas, jogar videogames e explorar a tecnologia. Acredito que essas experiências e interesses pessoais me ajudam a criar uma conexão genuína com cada pessoa que atendo, mostrando que, assim como você, também estou em constante aprendizado e evolução.
-                            </p>
+                            Na prática clínica, acompanho pessoas que lidam com ansiedade, estresse, sofrimento emocional relacionado ao trabalho, dificuldades nos relacionamentos e processos de autoconhecimento, sempre respeitando a singularidade de cada história.                            </p>
 
                             <p className='py-2 text-justify'>
-                                Estou comprometida em criar um ambiente seguro e acolhedor para que você possa explorar suas questões emocionais e alcançar uma vida equilibrada e saudável. Se busca apoio psicológico, entre em contato para começarmos essa jornada juntos.
-                            </p>
+                            Meu trabalho é pautado na construção de um espaço seguro, ético e acolhedor, no qual você possa se sentir à vontade para falar sobre suas questões, no seu tempo. Se sentir que este é o momento de buscar apoio psicológico, estou à disposição para iniciarmos esse processo.
+                                  </p>
 
                         </div>
                     </div>

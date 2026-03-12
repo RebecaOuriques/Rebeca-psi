@@ -2,6 +2,11 @@ import { SVGProps } from "react"
 import { JSX } from "react/jsx-runtime"
 
 function Contato() {
+    const phoneNumber = "5521976266447";
+    const message = "Olá, gostaria de saber mais sobre o serviço de terapia.";
+  
+    const formattedMessage = encodeURIComponent(message);
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${formattedMessage}`;
     return (
         <>
             <div className="grid md:pr-5 font-corpo text-slate-600">
@@ -13,15 +18,15 @@ function Contato() {
                     <div className=" space-y-4  flex-row justify-around items-center ">
                         <div className="grid pl-5 sm:text-center">
                             <div className=" text-slate-600 ">
-                                <p className="text-2xl text-center md:text-start">Presencial às sextas-feira:</p>
+                                {/* <p className="text-2xl text-center md:text-start">Presencial:</p>
                                 <div className="flex sm:justify-center md:justify-start items-center gap-2">
                                     <LocateIcon className="h-5 w-5 text-muted-foreground  " />
                                     <p className='font-corpo text-xl font'>
                                         Patio Campo Grande - RJ</p>
-                                </div>
+                                </div>  */}
                                 <div className="flex sm:justify-center md:justify-start items-center gap-2">
                                     <PhoneIcon className="h-5 w-5 text-muted-foreground " />
-                                    <p className="text-muted-foreground font font-corpo text-xl "> +55 (21) 98454-8915</p>
+                                    <p className="text-muted-foreground font font-corpo text-xl "> +55 (21) 97626-6447</p>
                                 </div>
                                 <div className="flex sm:justify-center md:justify-start items-center gap-2 ">
                                     <MailIcon className="h-5 w-5 text-muted-foreground" />
@@ -29,18 +34,28 @@ function Contato() {
                                 </div>
                             </div>
                         </div>
-                        <div className="rounded-lg overflow-hidden p-2 pb-4 flex justify-center md:justify-start">
+                        {/* <div className="rounded-lg overflow-hidden p-2 pb-4 flex justify-center md:justify-start">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.1838563727033!2d-43.56541682468959!3d-22.906588479255173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be3fdf4a56525%3A0x3a156ac4ccbe8186!2sPATIO%20CAMPO%20GRANDE!5e0!3m2!1spt-BR!2sbr!4v1730077198626!5m2!1spt-BR!2sbr"
                             width="100%"
                             height="300"
                             loading="lazy">
 
                             </iframe>
-                        </div>
+                        </div> */}
+                    </div>
+                    <div className="h-auto space-x-4 py-1 flex justify-center items-center  ">
+
+                        <a
+                            href={whatsappUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-cor2 text-white mt-1 border-3 rounded-3xl shadow-2xl p-3 m-1 md:m-2 font-corpo text-2xl animate-pulse"
+                        >
+                            Agende sua consulta
+                        </a>
 
                     </div>
-
-                    <div className="text-center mx-3 lg:mx-0 lg:w-[80vh]">
+                    {/* <div className="text-center mx-3 lg:mx-0 lg:w-[80vh]">
                         <p className="text-2xl xl:text-start py-2 md:py-0 m-0">Online</p>
                         <div className="flex border-2 shadow-xl rounded-xl  h-[75vh] md:h-[75vh] lg:h-[75vh] lg:w-[60vh] xl:w-[90vh]">
 
@@ -50,7 +65,7 @@ function Contato() {
 
                             </iframe>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>)

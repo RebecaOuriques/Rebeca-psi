@@ -3,7 +3,7 @@ interface SocialIconProps {
     ariaLabel: string;
     children: React.ReactNode;
   }
-  const phoneNumber = "5521984548915";
+  const phoneNumber = "5521976266447";
     const message = "Olá, gostaria de saber mais sobre o serviço de terapia.";
   
     const formattedMessage = encodeURIComponent(message);
